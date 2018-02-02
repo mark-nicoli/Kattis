@@ -5,9 +5,6 @@ public class abracadabra
     {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
-        for(int i = 1;i<= a;i++)
-        {
-            System.out.println(i+" Abracadabra");
-        }
+        for(int i = 1;i<= a;i++) System.out.println(i+" Abracadabra");
     }
 }
